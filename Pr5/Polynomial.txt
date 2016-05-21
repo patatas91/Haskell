@@ -1,0 +1,16 @@
+-- Fichero de Respuesta a las Preguntas Dadas
+-- Autores: Cristian Simon Moreno, NIA: 611487
+--          Miguel Allue Baron,    NIA: 593599
+
+--> Hay una función que es claramente mucho más eficiente en un tipo de representación que en otro,
+    es el caso de la función "pderv", la cual en el caso de un vector de coeficientes invierte más
+	tiempo de cálculo que en el caso de la lista de polinomios, esto es principalmente porque la lista de
+    tuplas ya contiene el coeficiente, y no tiene que ser calculado mediante el uso de la función "lenght",
+	que penaliza la eficiencia de dicha función.
+	
+--> A la hora de representar polinomios que son de una magnitud reducida (por ejemplo menor de grado 5), 
+    la representacion mediante el modulo vector de coeficientes será mas eficiente que la de lista de tuplas,
+	puesto que no se tendra que comprobar si el polinomio esta ordenado (se dará por supuesto), y la función "lenght",
+	para un tamaño reducido no será una gran penalización de eficiencia.
+    
+    	
